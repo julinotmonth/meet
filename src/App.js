@@ -17,7 +17,6 @@ function App() {
     <BrowserRouter>
             <Routes>
                 <Route path='/meet' element={<AboutUs />} />
-                <Route path='/meet/about' element={<AboutUs />} />
                 <Route path='product' element={<ProductPage />} />
                 <Route path='/product/sub-product-1' element={<Products_1 />} />
                 <Route path='/product/sub-product-2' element={<Products_2 />} />

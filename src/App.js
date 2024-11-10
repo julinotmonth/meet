@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
             <Routes>
-                <Route path='/meet' element={<MainPage />} />
+                <Route path='/meet' element={<AboutUs />} />
                 <Route path='/meet/about' element={<AboutUs />} />
                 <Route path='product' element={<ProductPage />} />
                 <Route path='/product/sub-product-1' element={<Products_1 />} />

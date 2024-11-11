@@ -13,34 +13,7 @@
   src: url(./font/Muli-1GDlj.ttf);
 }
 
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 
-.poster_img {
-  opacity: 0; /* Mulai dengan opacity 0 */
-  transition: opacity 1s ease-out; /* Transisi untuk opacity */
-}
-
-.img_about_us {
-  opacity: 0; /* Mulai dengan opacity 0 */
-  transition: opacity 1s ease-out; /* Transisi untuk opacity */
-}
-
-.img_about_us.slide-in {
-  animation: slideInFromLeft 1s ease-out forwards; /* forwards untuk mempertahankan keadaan akhir animasi */
-}
-
-.poster_img.slide-in {
-  animation: slideInFromLeft 1s ease-out forwards; /* forwards untuk mempertahankan keadaan akhir animasi */
-}
 
 
 .wadah_navbar_meet {
